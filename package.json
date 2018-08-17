@@ -1,0 +1,29 @@
+{
+  "name": "object.utils",
+  "version": "1.0.0",
+  "description": "A collection of utilities dealing with object",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geraldnguyen/object.utils.git"
+  },
+  "keywords": [
+    "Object",
+    "Utility",
+    "Keymirror",
+    "Property",
+    "Clone"
+  ],
+  "author": "Gerald Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geraldnguyen/object.utils/issues"
+  },
+  "homepage": "https://github.com/geraldnguyen/object.utils#readme",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}
