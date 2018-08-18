@@ -12,3 +12,12 @@ test('clone create a new identical object', () => {
     expect(objectUtils.clone(obj)).not.toBe(obj);
 });
 
+
+test("ownProperties(obj) returns an array of {name, value} each describes an own property of the object" , () => {
+    var obj = {a: 1, b: 2, c: "blah"};
+    expect(objectUtils.ownProperties(obj)).toEqual(
+        [{name: "a", value: 1}, {name: "b", value: 2}, {name: "c", value: "blah"}]);
+
+    objectUtils.ownProperties(obj).forEach(({name, value}) => {console.log(`Name: ${name}, value: ${value}`)});
+});
+
