@@ -1,5 +1,5 @@
 {
-  "name": "object.utils",
+  "name": "utils-object",
   "version": "1.0.0",
   "description": "A collection of utilities dealing with object",
   "main": "index.js",
